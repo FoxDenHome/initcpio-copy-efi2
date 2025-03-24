@@ -1,8 +1,6 @@
 # Maintainer: Doridian <archlinux at doridian dot net>
 
-# Make sure to put "sd-pcr7lock" in /etc/mkinitcpio.conf
-
-pkgname=efi2
+pkgname=initcpio-copy-efi2
 pkgver=1.0
 pkgrel=1
 pkgdesc='Copy /efi to /efi2 basically'
