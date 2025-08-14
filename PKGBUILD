@@ -1,7 +1,7 @@
 # Maintainer: Doridian <archlinux at doridian dot net>
 
 pkgname=initcpio-copy-efi2
-pkgver=1.0
+pkgver=1.1
 pkgrel=1
 pkgdesc='Copy /efi to /efi2 basically'
 arch=('any')
@@ -20,5 +20,5 @@ build() {
 }
 
 package() {
-  install -Dm755 "${srcdir}/initcpio.post" "${pkgdir}/etc/initcpio/post/efi2"
+  install -Dm755 "${srcdir}/initcpio.post" "${pkgdir}/etc/initcpio/post/99-efi2"
 }
