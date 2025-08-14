@@ -1,6 +1,6 @@
 pkgbase = initcpio-copy-efi2
 	pkgdesc = Copy /efi to /efi2 basically
-	pkgver = 1.0
+	pkgver = 1.1
 	pkgrel = 1
 	url = https://github.com/FoxDenHome/initcpio-copy-efi2
 	arch = any
